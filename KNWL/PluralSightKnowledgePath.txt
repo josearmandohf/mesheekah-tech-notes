@@ -1,0 +1,10 @@
+PluralSight Knowledge Path
+
+LINQ fundamentals
+1. Overview
+2. Introduction
+3. LINQ and C#
+	* Introduction
+	* Evolving the Language
+	* The power of IEnumerator
+	* Creating extension methods

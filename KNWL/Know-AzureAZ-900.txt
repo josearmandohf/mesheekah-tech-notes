@@ -1,0 +1,14 @@
+Concepts Learned
+- Cloud Computing: Delivering IT Services over the internet. A way to rent compute power and storage from someone else’s datacenter
+	- Shared Responsibility Model
+		* IaaS
+		* SaaS 
+		* PaaS
+	- Cloud Models: determine deployment type of cloud resources.
+		* Private Cloud: the natural evolution from a corporate datacenter
+		* Public Cloud: built, controlled and maintained by a cloud provider
+		* Hybrid: both, public and private.
+		* Multi-cloud: multiple cloud providers
+		* Azure Arc: set of technologies to work with private, public, hybrid and multi-cloud models.
+		* Azure VMware Solution: VMWare workloads in Azure
+	- Consuption-base model: pay-as-you-go pricing model

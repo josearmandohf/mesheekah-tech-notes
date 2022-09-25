@@ -1,0 +1,214 @@
+RequestId:292f51fe04444516ac5416a54abfd71d _logstash_dateformat:%G.%V 
+@timestamp:Aug 3, 2022 @ 07:12:57.305 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+AdditionalData:(empty) 
+applicationName:ProcessOne API 
+CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Web.API.Controllers.CreditCardController.Charge 
+Category:Communication 
+level:info 
+machinename:VM-WEB-02 
+message:Server response on contract: '"https://apiprocessone.oneincsystems.com/api/creditcard/Charge"'. "" 
+Response data: "{
+    "Token":null,
+    "TransactionId":"202565525",
+    "TransactionDate":"2022-08-03T07:12:55.8141605",
+    "TimeZone":"PDT",
+    "AuthorizationCode":" ",
+    "BatchNumber":468540,
+    "CreditCardType":1,
+    "HolderName": "John Smith",
+    "HolderZip": "00000",
+    "BaseCardType":1,
+    "PostedAmount":190.00,
+    "PaymentAmountGroups":null,
+    "ResponseCode":"Declined",
+    "Message":"Insufficient funds"
+    }" 
+messageLength:463 
+originalRecordLength:1,616 
+releaseVersion:5.6.7-RC.852459 
+RequestUrl:https://apiprocessone.oneincsystems.com/api/creditcard/Charge 
+ResponseData:{
+    "Token":null,
+    "TransactionId":"202565525",
+    "TransactionDate":"2022-08-03T07:12:55.8141605",
+    "TimeZone":"PDT",
+    "AuthorizationCode":" ",
+    "BatchNumber":468540,
+    "CreditCardType":1,
+    "HolderName": "John Smith",
+    "HolderZip": "00000",
+    "BaseCardType":1,
+    "PostedAmount":190.00,
+    "PaymentAmountGroups":null,
+    "ResponseCode":"Declined",
+    "Message":"Insufficient funds"
+} 
+tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.RequestResponseLog.2022-08-03.VM-WEB-02.txt 
+threadid:49 
+traceid:7c6043deaf1c5a4e8694400b041524d0 
+TransactionIds.ChargeCCNoFee:202,565,525 
+_id:MZoNZIIBNrfH9jrbbgIj 
+_index:.ds-logs-payments-az1-request-response-2022.07.30-000013 
+_score: - 
+_type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:57.295 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API CallerFilePath:C:\BA\BA1\work\ac30e59b084efda2\ProcessOne.Libs\NlogExtension\Src\LoggerExtension.cs 
+CallerLineNumber:1,404 CallerMemberName:Warn CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Bll.Operations.Helpers.OperationValidationHelper.Warn 
+Context:Amount: 190.00, 
+ClientRefData1: G01201919000, 
+ClientRefData2: 33980610, 
+ClientRefData3: VAL1, ClientRefData4: 2214, 
+AccountGroupCode: FRWYCA1, 
+ProcessOneToken: ca57840d-a22e-456f-b8e2-670bdaf89695, 
+SaveCreditCard: False, 
+IsRecurring: False, 
+ChargeConFee: False, 
+CreditCardDetails: 
+Number: 9695, 
+Type: Visa, 
+ExpirationYear: 2027, 
+ExpirationMonth: 11, 
+HolderZip: 00000, 
+HolderAddress: 620 Coolidge Dr, 
+HolderName: John Smith, 
+CallbackID: 
+level:warn 
+machinename:VM-WEB-02 
+message:Validation Failed. 
+Operation: "OperationValidationHelper", 
+Context: [Amount: 190.00, 
+ClientRefData1: G01201919000, ClientRefData2: 33980610, ClientRefData3: VAL1, ClientRefData4: 2214, AccountGroupCode: FRWYCA1, ProcessOneToken: ca57840d-a22e-456f-b8e2-670bdaf89695, SaveCreditCard: False, IsRecurring: False, ChargeConFee: False, CreditCardDetails: Number: 9695, Type: Visa, ExpirationYear: 2027, ExpirationMonth: 11, HolderZip: 00000, HolderAddress: 620 Coolidge Dr, HolderName: John Smith, CallbackID: ], Result: [MerchantId: 229, TransactionId: 202565525, ExternalTransactionId: , AuthCode: , 
+ResponseCode: Declined, Description: Insufficient funds, SavedCardTransactionId: ] messageLength:702 
+OperationType:OperationValidationHelper 
+originalRecordLength:2,194 
+ProcessOneAuthenticationKey:57041987-9FBD-435D-8951-3F8A1A3BF07B 
+releaseVersion:5.6.7-RC.852459 ResponseData:(empty) 
+Result:MerchantId: 229, TransactionId: 202565525, ExternalTransactionId: , AuthCode: , 
+ResponseCode: Declined, 
+Description: Insufficient funds, SavedCardTransactionId: tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.StructuredLog.2022-08-03.VM-WEB-02.txt threadid:49 traceid:7c6043deaf1c5a4e8694400b041524d0 TransactionIds.ChargeCCNoFee:202,565,525 _id:nTgNZIIB5vuj6RRTgQWf _index:.ds-logs-payments-az1-regular-2022.07.30-000013 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:57.285 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Gateway.Compass.CompassGatewayAdapter.MakeRequestWithLogging 
+level:info machinename:VM-WEB-02 
+message:<OnlineTransResponse><OrderNumber>202565525 </OrderNumber><ResponseReasonCode>302</ResponseReasonCode><ResponseDate>220803</ResponseDate><AuthorizationCode> </AuthorizationCode><AVSResponseCode>I4</AVSResponseCode><CSVResponseCode> </CSVResponseCode><AccountNumber>*5 </AccountNumber><ExpirationDate>1127</ExpirationDate><Mop>VI</Mop><RPAdviceCode> </RPAdviceCode><CAVVResponseCode> </CAVVResponseCode><Amount>000000019000</Amount><ProcessingFormats><TA><TokenType>EBP2</TokenType></TA></ProcessingFormats></OnlineTransResponse> messageLength:548 originalRecordLength:1,122 releaseVersion:5.6.7-RC.852459 tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.GatewayLog.2022-08-03.VM-WEB-02.txt threadid:49 traceid:7c6043deaf1c5a4e8694400b041524d0 TransactionIds.ChargeCCNoFee:202,565,525 _id:JjcNZIIB5vuj6RRTbv6p _index:.ds-logs-payments-az1-gateway-2022.07.28-000009 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:55.839 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Gateway.Compass.CompassGatewayAdapter.MakeRequestWithLogging 
+level:info machinename:VM-WEB-02 
+message:<OnlineTransRequest><Transaction><OrderNumber>202565525</OrderNumber><Mop>VI</Mop><AccountNumber>*5 </AccountNumber><ExpirationDate>1127</ExpirationDate><DivisionNumber>0180026318</DivisionNumber><Amount>19000</Amount><CurrencyCode>840</CurrencyCode><TransactionType>Item7</TransactionType><AccountNumberDesc>TOK</AccountNumberDesc><AccountNumberDescSpecified>True</AccountNumberDescSpecified><BillPaymentIndicator>Y</BillPaymentIndicator><BillPaymentIndicatorSpecified>False</BillPaymentIndicatorSpecified><ActionCode>AU</ActionCode></Transaction><AdditionalFormats><AB><TelephoneType>D</TelephoneType><TelephoneTypeSpecified>False</TelephoneTypeSpecified><Address1>7711 CENTER AVE SUITE 200</Address1><PostalCode>95757</PostalCode></AB><LN><FirstName>KALEB</FirstName><LastName>SMITH</LastName></LN><SM><DBA>Cost-u-Less Ins</DBA><City>Huntington Beach</City></SM><TA><TokenType>EBP2</TokenType></TA><CS><CardSecurityPresence>Item</CardSecurityPresence><ExtCardSecurityValue>***</ExtCardSecurityValue></CS><MC><MerchantContactInfo>800-3000227</MerchantContactInfo></MC><OR><OriginalDataRequestIndicator>N</OriginalDataRequestIndicator></OR><SC><StoredCredentialIndicator>Item1</StoredCredentialIndicator><StoredCredentialIndicatorSpecified>True</StoredCredentialIndicatorSpecified><InitiationIndicator>C</InitiationIndicator><InitiationIndicatorSpecified>True</InitiationIndicatorSpecified><ScheduleIndicator>U</ScheduleIndicator><ScheduleIndicatorSpecified>True</ScheduleIndicatorSpecified></SC></AdditionalFormats></OnlineTransRequest> messageLength:1,540 originalRecordLength:2,114 releaseVersion:5.6.7-RC.852459 tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.GatewayLog.2022-08-03.VM-WEB-02.txt threadid:39 traceid:7c6043deaf1c5a4e8694400b041524d0 TransactionIds.ChargeCCNoFee:202,565,525 _id:ITcNZIIB5vuj6RRTbv6p _index:.ds-logs-payments-az1-gateway-2022.07.28-000009 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:55.809 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API CallerFilePath:C:\BA\BA1\work\ac30e59b084efda2\ProcessOne.Libs\NlogExtension\Src\LoggerExtension.cs 
+CallerLineNumber:1,009 CallerMemberName:Info CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Core.ExternalServices.HttpServiceWrapper.Info Category:Communication ExternalService:VisaTokenGatewayService 
+level:info machinename:VM-WEB-02 
+message:Service response on contract: '"v1/getpaymentbundle"'. Response data: "{"statusCode":"9006","statusMessage":"The provided token cannot be found","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","messageId":"5e002a3e-d0b1-4b03-9575-eceb080a39ec"}" messageLength:254 originalRecordLength:1,296 releaseVersion:5.6.7-RC.852459 ResponseData:{"statusCode":"9006","statusMessage":"The provided token cannot be found","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","messageId":"5e002a3e-d0b1-4b03-9575-eceb080a39ec"} ServiceUri:v1/getpaymentbundle tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.StructuredLog.2022-08-03.VM-WEB-02.txt threadid:39 traceid:7c6043deaf1c5a4e8694400b041524d0 _id:7DcNZIIB5vuj6RRTbv2J _index:.ds-logs-payments-az1-regular-2022.07.30-000013 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:55.809 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API 
+CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.ExternalServices.VisaTokenGatewayService.VisaTokenGatewayServiceAdapter.GetPaymentCryptogramAsync 
+ConversationId:fe2da474-2440-4a19-a570-807b201d6b80 
+ErrorCode:9006 
+ErrorMessage:The provided token cannot be found 
+level:error machinename:VM-WEB-02 
+message:Get Payment Bundle request to Visa Token Gateway service returned error code '"9006"' with message '"The provided token cannot be found"'. ConversationId: 'fe2da474-2440-4a19-a570-807b201d6b80', MessageId: '"5e002a3e-d0b1-4b03-9575-eceb080a39ec"'. MessageId:5e002a3e-d0b1-4b03-9575-eceb080a39ec messageLength:247 originalRecordLength:1,021 releaseVersion:5.6.7-RC.852459 ResponseData:(empty) tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.StructuredLog.2022-08-03.VM-WEB-02.txt threadid:39 traceid:7c6043deaf1c5a4e8694400b041524d0 _id:7TcNZIIB5vuj6RRTbv2J _index:.ds-logs-payments-az1-regular-2022.07.30-000013 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:55.809 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Bll.Services.TokenStrategies.ChargeCardTokenStrategy.CreateCryptogramAsync 
+level:warn machinename:VM-WEB-02 
+message:Unable to retrieve payment cryptogram by token [44937066] messageLength:57 originalRecordLength:642 releaseVersion:5.6.7-RC.852459 ResponseData:(empty) tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.StructuredLog.2022-08-03.VM-WEB-02.txt threadid:39 TokenId:44,937,066 traceid:7c6043deaf1c5a4e8694400b041524d0 _id:7jcNZIIB5vuj6RRTbv2J _index:.ds-logs-payments-az1-regular-2022.07.30-000013 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:55.376 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+:ProcessOne API CallerFilePath:C:\BA\BA1\work\ac30e59b084efda2\ProcessOne.Libs\NlogExtension\Src\LoggerExtension.cs 
+CallerLineNumber:1,051 CallerMemberName:Info CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Core.ExternalServices.HttpServiceWrapper.Info Category:Communication ExternalService:VisaTokenGatewayService 
+level:info machinename:VM-WEB-02 
+message:Service contract was called: [POST] '"v1/getpaymentbundle"'. Request data: "{"tokenReferenceId":"42200e66-db95-4c17-a187-7f02e17a5cd8","bundleMetaData":"ECOM_CRYPTOGRAM","bundleInput":[],"messageId":"5e002a3e-d0b1-4b03-9575-eceb080a39ec","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","tokenRequestorId":"77713706904"}" messageLength:329 Method:POST originalRecordLength:1,468 releaseVersion:5.6.7-RC.852459 RequestData:{"tokenReferenceId":"42200e66-db95-4c17-a187-7f02e17a5cd8","bundleMetaData":"ECOM_CRYPTOGRAM","bundleInput":[],"messageId":"5e002a3e-d0b1-4b03-9575-eceb080a39ec","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","tokenRequestorId":"77713706904"} ResponseData:(empty) ServiceUri:v1/getpaymentbundle tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.StructuredLog.2022-08-03.VM-WEB-02.txt threadid:56 traceid:7c6043deaf1c5a4e8694400b041524d0 _id:6DcNZIIB5vuj6RRTbv2J _index:.ds-logs-payments-az1-regular-2022.07.30-000013 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:55.356 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API CallerFilePath:C:\BA\BA1\work\ac30e59b084efda2\ProcessOne.Libs\NlogExtension\Src\LoggerExtension.cs 
+CallerLineNumber:1,009 CallerMemberName:Info CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Core.ExternalServices.HttpServiceWrapper.Info Category:Communication ExternalService:VisaTokenGatewayService 
+level:info machinename:VM-WEB-02 
+message:Service response on contract: '"v1/getpaymentbundle"'. Response data: "{"statusCode":"9006","statusMessage":"The provided token cannot be found","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","messageId":"fb6c3a9d-c763-4665-b407-e295ff2585f2"}" messageLength:254 originalRecordLength:1,296 releaseVersion:5.6.7-RC.852459 ResponseData:{"statusCode":"9006","statusMessage":"The provided token cannot be found","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","messageId":"fb6c3a9d-c763-4665-b407-e295ff2585f2"} ServiceUri:v1/getpaymentbundle tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.StructuredLog.2022-08-03.VM-WEB-02.txt threadid:56 traceid:7c6043deaf1c5a4e8694400b041524d0 _id:5jcNZIIB5vuj6RRTbv2J _index:.ds-logs-payments-az1-regular-2022.07.30-000013 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:55.356 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.ExternalServices.VisaTokenGatewayService.VisaTokenGatewayServiceAdapter.GetPaymentCryptogramAsync 
+ConversationId:fe2da474-2440-4a19-a570-807b201d6b80 
+ErrorCode:9006 
+ErrorMessage:The provided token cannot be found 
+level:warn machinename:VM-WEB-02 
+message:Get Payment Bundle request to Visa Token Gateway service returned error code '"9006"' with message '"The provided token cannot be found"'. ConversationId: 'fe2da474-2440-4a19-a570-807b201d6b80', MessageId: '"fb6c3a9d-c763-4665-b407-e295ff2585f2"'. MessageId:fb6c3a9d-c763-4665-b407-e295ff2585f2 messageLength:247 originalRecordLength:1,020 releaseVersion:5.6.7-RC.852459 ResponseData:(empty) tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.StructuredLog.2022-08-03.VM-WEB-02.txt threadid:56 traceid:7c6043deaf1c5a4e8694400b041524d0 _id:5zcNZIIB5vuj6RRTbv2J _index:.ds-logs-payments-az1-regular-2022.07.30-000013 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:55.106 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API CallerFilePath:C:\BA\BA1\work\ac30e59b084efda2\ProcessOne.Libs\NlogExtension\Src\LoggerExtension.cs 
+CallerLineNumber:1,009 CallerMemberName:Info CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Core.ExternalServices.HttpServiceWrapper.Info Category:Communication ExternalService:VisaTokenGatewayService 
+level:info machinename:VM-WEB-02 
+message:Service response on contract: '"v1/getpaymentbundle"'. Response data: "{"statusCode":"9006","statusMessage":"The provided token cannot be found","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","messageId":"51b8a1d4-8526-4437-af5d-aaf72108b225"}" messageLength:254 originalRecordLength:1,296 releaseVersion:5.6.7-RC.852459 ResponseData:{"statusCode":"9006","statusMessage":"The provided token cannot be found","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","messageId":"51b8a1d4-8526-4437-af5d-aaf72108b225"} ServiceUri:v1/getpaymentbundle tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.StructuredLog.2022-08-03.VM-WEB-02.txt threadid:84 traceid:7c6043deaf1c5a4e8694400b041524d0 _id:4jcNZIIB5vuj6RRTbv2J _index:.ds-logs-payments-az1-regular-2022.07.30-000013 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:55.106 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.ExternalServices.VisaTokenGatewayService.VisaTokenGatewayServiceAdapter.GetPaymentCryptogramAsync 
+ConversationId:fe2da474-2440-4a19-a570-807b201d6b80 
+ErrorCode:9006 
+ErrorMessage:The provided token cannot be found 
+level:warn machinename:VM-WEB-02 
+message:Get Payment Bundle request to Visa Token Gateway service returned error code '"9006"' with message '"The provided token cannot be found"'. ConversationId: 'fe2da474-2440-4a19-a570-807b201d6b80', MessageId: '"51b8a1d4-8526-4437-af5d-aaf72108b225"'. MessageId:51b8a1d4-8526-4437-af5d-aaf72108b225 messageLength:247 originalRecordLength:1,020 releaseVersion:5.6.7-RC.852459 ResponseData:(empty) tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.StructuredLog.2022-08-03.VM-WEB-02.txt threadid:84 traceid:7c6043deaf1c5a4e8694400b041524d0 _id:4zcNZIIB5vuj6RRTbv2J _index:.ds-logs-payments-az1-regular-2022.07.30-000013 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:55.106 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API CallerFilePath:C:\BA\BA1\work\ac30e59b084efda2\ProcessOne.Libs\NlogExtension\Src\LoggerExtension.cs 
+CallerLineNumber:1,051 CallerMemberName:Info CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Core.ExternalServices.HttpServiceWrapper.Info Category:Communication ExternalService:VisaTokenGatewayService 
+level:info machinename:VM-WEB-02 
+message:Service contract was called: [POST] '"v1/getpaymentbundle"'. Request data: "{"tokenReferenceId":"42200e66-db95-4c17-a187-7f02e17a5cd8","bundleMetaData":"ECOM_CRYPTOGRAM","bundleInput":[],"messageId":"fb6c3a9d-c763-4665-b407-e295ff2585f2","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","tokenRequestorId":"77713706904"}" messageLength:329 Method:POST originalRecordLength:1,468 releaseVersion:5.6.7-RC.852459 RequestData:{"tokenReferenceId":"42200e66-db95-4c17-a187-7f02e17a5cd8","bundleMetaData":"ECOM_CRYPTOGRAM","bundleInput":[],"messageId":"fb6c3a9d-c763-4665-b407-e295ff2585f2","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","tokenRequestorId":"77713706904"} ResponseData:(empty) ServiceUri:v1/getpaymentbundle tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.StructuredLog.2022-08-03.VM-WEB-02.txt threadid:84 traceid:7c6043deaf1c5a4e8694400b041524d0 _id:5DcNZIIB5vuj6RRTbv2J _index:.ds-logs-payments-az1-regular-2022.07.30-000013 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%Y.%m @timestamp:Aug 3, 2022 @ 07:12:54.761 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+applicationName:ProcessOne API CallerFilePath:C:\BA\BA1\work\ac30e59b084efda2\ProcessOne.Libs\NlogExtension\Src\LoggerExtension.cs 
+CallerLineNumber:1,051 CallerMemberName:Info CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Core.ExternalServices.HttpServiceWrapper.Info Category:Communication ExternalService:VisaTokenGatewayService 
+level:info machinename:VM-WEB-02 
+message:Service contract was called: [POST] '"v1/getpaymentbundle"'. Request data: "{"tokenReferenceId":"42200e66-db95-4c17-a187-7f02e17a5cd8","bundleMetaData":"ECOM_CRYPTOGRAM","bundleInput":[],"messageId":"51b8a1d4-8526-4437-af5d-aaf72108b225","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","tokenRequestorId":"77713706904"}" messageLength:329 Method:POST originalRecordLength:1,468 releaseVersion:5.6.7-RC.852459 RequestData:{"tokenReferenceId":"42200e66-db95-4c17-a187-7f02e17a5cd8","bundleMetaData":"ECOM_CRYPTOGRAM","bundleInput":[],"messageId":"51b8a1d4-8526-4437-af5d-aaf72108b225","conversationId":"fe2da474-2440-4a19-a570-807b201d6b80","tokenRequestorId":"77713706904"} ResponseData:(empty) ServiceUri:v1/getpaymentbundle tailed_path:L:/Logs/ProcessOneLogs/ProcessOne API/ProcessOne API.StructuredLog.2022-08-03.VM-WEB-02.txt threadid:86 traceid:7c6043deaf1c5a4e8694400b041524d0 _id:3TcNZIIB5vuj6RRTbv2J _index:.ds-logs-payments-az1-regular-2022.07.30-000013 _score: - _type:_doc
+
+RequestId:292f51fe04444516ac5416a54abfd71d 
+_logstash_dateformat:%G.%V @timestamp:Aug 3, 2022 @ 07:12:54.651 
+ActivityId:955bf4bd-965e-45c0-9fb5-dfd11a7edb0d 
+AdditionalData:(empty) applicationName:ProcessOne API CallHostAddressLayoutRenderer:69.71.56.220 
+callsite:OneInc.ProcessOne.Web.API.Controllers.CreditCardController.Charge Category:Communication 
+level:info machinename:VM-WEB-02 
+message:Client called following contract: '"https://apiprocessone.oneincsystems.com/api/creditcard/Charge"'. "" Request data: "{"request":

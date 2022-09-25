@@ -1,0 +1,8 @@
+Knowledge: Task Story Workflow
+
+There are only 4 branches
+* Feature
+* Master 
+* Develop
+* Release
+

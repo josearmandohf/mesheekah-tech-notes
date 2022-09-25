@@ -1,0 +1,82 @@
+Notes
+* Use checklist for Jirah
+* Update my profile photo everywhere - setup
+* Concentrate in small time period.
+
+Dev Evaluation Criteria
+☐ You understand one component/service or product functionality. You can answer colleagues' specific questions about it.
+	
+	9/9/2022: I have been able to teamwork with QA and answer questions about my stuff.
+
+☐ You implement tasks under the direct supervision. You can implement the solution given by a Mentor/Sr Dev (Completed)
+
+	9/9/2022: I have been implementig ideas and advices.
+
+☐ You write understandable code. There may be critical concerns in the review. 
+However, there is a positive trend towards fewer concerns in reviews. The quality of the code is improving all the time. 
+You follow best practices.
+
+	9/9/2022: I have implemented best practice in code. (In Progress)
+
+☐ You are interested in programming and constantly develop skills. 
+	Capable of figuring out the cause of an error with the help of the Internet. 
+	Know the syntax of the programming language used and the inner workings of runtime. 
+	Minimal familiarity with databases. Keep up with industry events.
+
+	9/9/2022: 	I have been testing my proposed solutions to get improve accuracy for Tech Analysis (For difficult tickets => Proof of concept)
+			I have been actively taking courses and taking the time to understand. 
+
+*Problems with root cause. I should improve skill to try to find solution. (In PROGRESS)
+
+☐ Task analysis with the help of product peers. (COMPLETED)
+	* Teamwork Effort - TPMs - Angela, 
+	*/ TechLead
+	* QA
+	* Prepare technical analysis and communicate.
+
+	9/9/2022: I have performed TA by myself, receiving feedback and implementing solutions given by mentor.
+
+☐ Able to do decomposition and evaluation of a typical task (1-2 product iterations) with the help of product colleagues. 
+	May not be able to meet estimates and deadlines during implementation.
+
+	9/9/2022: THERE IS GOING TO BE A BIG TICKET THAT I WOULD NEED TO SPLIT IT BUT MAYBE LATER I WILL HAVE THE OPPORTUNITY TO DO THIS
+
+☐ You are avoiding asking the same thing twice, making progress. 
+Instead, periodically offer solutions to problems. 
+You can solve typical minor issues (e.g., code errors) by analyzing the code or searching the Internet. (IN PROGRESS, CHECKLIST GOOD IDEA)
+
+	9/9/2022: 	I have been doing this without issues. When I have the mistake of thinking something twice then I implement control measures to ensure is not happening any more.
+			I have been improving my notes and methods to come back to get information, definitions or next steps.
+
+☐ Regularly give a status on the progress of the task to escalate problems in time (without getting stuck). Learn feedback from team members. (COMPLETED)
+
+	9/9/2022: I have not had any problems with communicating.
+
+☐ Implementing the task yourself from start to finish. (IN PROGRESS)
+
+	9/9/2022: Almost, I have been getting help with some merge conflicts or reverts. I think is normal, the course in PluralSight and the Experience will make me improve.
+
+☐ Know about splitting the application into layers and other design patterns. (IN PROGRESS)
+	* STUDY: https://oneinc.atlassian.net/wiki/spaces/PROC1/pages/36780419/Component+vs+Product+explanation
+	* WHEN I AM READING, GO TO THE PART OF THE CODE, UNDERSTAND WHERE TO IMPLEMENT MY TICKETS.
+
+☐ Rarely make the same mistakes twice. Can quickly close gaps in knowledge when necessary. (IN PROGRESS)
+
+☐ Independent analysis, decomposition, and evaluation of a typical task. (IN PROGRESS)
+
+
+
+GOALS 9/9/2022
+* CRYPTOGRAM DONE.
+* ROMAN/EDUARDO WILL FIND A TICKET FOR ME THAT TAKES MORE EFFORT/EXPERTISE TO DECOMPOSE IT.
+* 
+
+
+
+
+
+
+
+
+
+

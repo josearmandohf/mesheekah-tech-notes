@@ -1,0 +1,120 @@
+{
+    "KnowledgeID": "KNWL-INTER-TRAIN-SECURECODE",
+    "Name": "INTERNAL SECURE CODING PRACTICES",
+    "General Areas of Study": [
+        "",
+        "",
+        ""
+    ],
+    "Units": [
+        {
+            "Unit": 1,
+            "Topic": "TOPIC DESCRIPTION",
+            "Goals": [
+                {
+                    "GOAL1": [
+                        "A1",
+                        "A2"
+                    ]
+                },
+                {
+                    "GOALX": [
+                        "AX",
+                        "AX"
+                    ]
+                },
+                {
+                    "GOALX": [
+                        "AX",
+                        "AX"
+                    ]
+                },
+                {
+                    "GOALX": [
+                        "AX",
+                        "AX"
+                    ]
+                },
+                {
+                    "GOALX": [
+                        "AX",
+                        "AX"
+                    ]
+                },
+                {
+                    "GOALX": [
+                        "AX",
+                        "AX"
+                    ]
+                }
+            ],
+        },
+        {
+            "Unit": 2,
+            "Topic": "TOPIC UNIT2",
+            "Goals": [
+                {
+                    "GOALX": [
+                        "AX",
+                        "AX"
+                    ]
+                },
+                {
+                    "GOALX": [
+                        "AX",
+                        "AX"
+                    ]
+                },
+                {
+                    "GOALX": [
+                        "AX",
+                        "AX"
+                    ]
+                },
+                {
+                    "GOALX": [
+                        "AX",
+                        "AX"
+                    ]
+                }
+
+            ]
+        },
+        {
+            "Unit": 3,
+            "Topic": "TopicX",
+            "Goals": [
+                {
+                    "Q": [
+                        "A1",
+                        "A2"
+                    ]
+                },
+                {
+                    "Q": [
+                        "A1",
+                        "A2"
+                    ]
+                }
+            ]
+        },
+        {
+            "Unit": 4,
+            "Topic": "TopicX",
+            "Goals": [
+                {
+                    "Q": [
+                        "A1",
+                        "A2"
+                    ]
+                },
+                {
+                    "Q": [
+                        "A1",
+                        "A2"
+                    ]
+                }
+            ]
+        }
+    ]
+}

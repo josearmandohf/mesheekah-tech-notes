@@ -1,0 +1,122 @@
+{
+    "KnowledgeID": "KNWL-ESI-CERT-AZ900",
+    "Name": "Microsoft Azure Fundamentals",
+    "General Areas of Study": [
+        "Cloud concepts",
+        "Azure architechture & services",
+        "Azure management % governance"
+    ],
+    "Units": [
+        {
+            "Unit": 1,
+            "Topic": "Describe cloud computing",
+            "Goals": [
+                {
+                    "Define cloud computing": [
+                        "Cloud computing is the delivery of computing services over the internet by using a pay-as-you-go pricing model",
+                        "To put it another way, cloud computing is a way to rent compute power and storage (services) from someone else's datacenter"
+                    ]
+                },
+                {
+                    "Describe the shared responsibility model": [
+                        "In order to have applications running there must be infrastructure, software up to date, a provider and  consumer of services.",
+                        "The SRM model seeks to assign responsibility and put the rules in place for infrastructure and software maintenance to one of two roles, provider or consumer, depending on the agreement and on which side the services will live."
+                    ]
+                },
+                {
+                    "Define cloud models, including public, private, and hybrid": [
+                        "Public everyone can use the services upon configuration",
+                        "In private scenarios (a.k.a internal cloud/corporate cloud) only one customer and his/her organization has access to the services",
+                        "Hybrid has some public cloud services but also the ability to have private services for only one specific user"
+                    ]
+                },
+                {
+                    "Identify appropriate use cases for each cloud model": [
+                        "Public, any service in the web open to the public like saving storage in OneDrive or Google Cloud Storage",
+                        "Private, any company with the need of a high level of security and privacy to data will be a good candidate for this scenario",
+                        "Hybrid, a company needing some services with high level of security and privacy but also with the need of other open public services that are used in a day to day operation"
+                    ]
+                },
+                {
+                    "Describe the consumption-based model": [
+                        "You pay as you go with flexibility to go up or down in resources"
+                    ]
+                },
+                {
+                    "Compare cloud pricing models": [
+                        "Plan and manage your operating costs",
+                        "Run your infrastructure more efficiently",
+                        "Scale as your business needs change"
+                    ]
+                }
+            ],
+        },
+        {
+            "Unit": 2,
+            "Topic": "Describe the benefits of using cloud services",
+            "Goals": [
+                {
+                    "Describe the benefits of high availability and scalability in the cloud.": [
+                        "A1",
+                        "A2"
+                    ]
+                },
+                {
+                    "Describe the benefits of reliability and predictability in the cloud.": [
+                        "A1",
+                        "A2"
+                    ]
+                },
+                {
+                    "Describe the benefits of security and governance in the cloud.": [
+                        "A1",
+                        "A2"
+                    ]
+                },
+                {
+                    "Describe the benefits of manageability in the cloud.": [
+                        "A1",
+                        "A2"
+                    ]
+                }
+
+            ]
+        },
+        {
+            "Unit": 3,
+            "Topic": "TopicX",
+            "Goals": [
+                {
+                    "Q": [
+                        "A1",
+                        "A2"
+                    ]
+                },
+                {
+                    "Q": [
+                        "A1",
+                        "A2"
+                    ]
+                }
+            ]
+        },
+        {
+            "Unit": 4,
+            "Topic": "TopicX",
+            "Goals": [
+                {
+                    "Q": [
+                        "A1",
+                        "A2"
+                    ]
+                },
+                {
+                    "Q": [
+                        "A1",
+                        "A2"
+                    ]
+                }
+            ]
+        }
+    ]
+}
