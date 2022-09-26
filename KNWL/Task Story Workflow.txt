@@ -2,7 +2,11 @@ Knowledge: Task Story Workflow
 
 There are only 4 branches
 * Feature
-* Master 
+* Main 
 * Develop
 * Release
+
+//Add link to wiki
+//Have it a standard practice for your notes.
+//This change
 
