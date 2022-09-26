@@ -1,1 +1,0 @@
-%windir%\System32\runas.exe  /noprofile /netonly /user:AZ2ONEINC\arhernandez "C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Ssms.exe -S dp-dev-sql-01.az2oneinc.io"
