@@ -1,6 +1,0 @@
-Root Cause Analysis - Checklist
-1. Find original ticket and link it as a "Bug of"
-2. Second ticket to create tests and link it as "Relates to" - This is for sure unless no feasible test can be done (e.g,; Performance DB tets).
-3. Send link to Evgeniya Sazonova and ask to review.
-4. Discuss in next daily - do we need original implementation. 
-	Once discussed Team Lead and QA. Add link to original implementation

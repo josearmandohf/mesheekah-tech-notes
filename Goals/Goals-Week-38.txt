@@ -1,9 +1,0 @@
-Goals 
-
-1. Focus in only one thing.
-2. Complete Git course in PluralSight
-3. Put in practice: Create a Git environment for notes.
-	3.1 Git CLI: 
-		* PowerShell, posh-git, 
-		* Cmder - a console emulation package that combines ConEmu, Clink
-		* oh-my-posh
