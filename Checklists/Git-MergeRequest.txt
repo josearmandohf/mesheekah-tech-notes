@@ -6,7 +6,8 @@ Create Merge Request
 4.	Click New merge request button 
 5.	In Source Branch select the Work branch you want to merge into Target Branch 
 6.	Click Compare Branches and Continue 
-7.	Set Assignee and Reviewer 
+7.	Set Assignee and Reviewer to yourself before checking Pipeline
+8.	Once pipeline is successful then
 	a.	For process one set Assignee and Reviewer with Pavel Bulyshev or Pavel Korlyakov, they have permissions to merge, they are owners in process one. 
 	b.	For PortalOne set it both Assignee and Reviewer to Eduardo Espinosa 
 8.	Click Create Merge Request 
@@ -14,3 +15,4 @@ Create Merge Request
 10.	Set same Assignee of point 7 to the Jira Ticket 
 11.	Set Jira status as Merge 
 12.	Made a comment in Jirah and share the link to the Merge Request. 
+
