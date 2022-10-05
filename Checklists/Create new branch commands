@@ -1,0 +1,13 @@
+git checkout -b "PROC-182205-arhernandez-develop"
+git push --set-upstream origin PROC-182205-arhernandez-develop
+git cherry-pick b062f69                                                                     | if you have a commit with 2 parents execute with param -m and number of parent "git cherry-pick -m 1 b062f69"
+git status                                                                                  | *Some conflicts*
+code OneInc.PortalOne.ClaimsPay.csproj                                                      | Accept incoming change and save
+code ../../paymentportal/OneInc.PortalOne.Dashboard/OneInc.PortalOne.Dashboard.csproj       | Accept incoming change and save
+git add OneInc.PortalOne.ClaimsPay.csproj                                                   | Accept incoming change and save
+git add  ../../paymentportal/OneInc.PortalOne.Dashboard/OneInc.PortalOne.Dashboard.csproj   | Accept incoming change and save
+
+
+
+Delete a local branch
+git branch -D "PROC-182205-arhernandez-develop"
